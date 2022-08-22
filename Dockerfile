@@ -12,4 +12,4 @@ RUN python3 -m pip install --no-cache-dir -r /tmp/requirements.txt
 
 RUN rm /tmp/requirements.txt
 
-CMD ["openstack"]
+ENTRYPOINT [ "/bin/sh" ]
