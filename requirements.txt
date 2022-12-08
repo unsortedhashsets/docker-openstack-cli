@@ -1,1 +1,2 @@
 python-openstackclient==6.0.0
+python-neutronclient==8.2.0
